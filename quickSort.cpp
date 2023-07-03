@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 void quickSort(int arr[], int left, int right)
 {
@@ -29,23 +29,21 @@ void quickSort(int arr[], int left, int right)
 }
 int main()
 {
-     int n;
+    int n;
     cout << "Enter the number of elements: " << endl;
     cin >> n;
-    int a[n], temp,min_index,i,j;
-    cout<<"enter the number for sorting: "<< endl;
+    int a[n], temp, min_index, i, j;
+    cout << "enter the number for sorting: " << endl;
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
     }
     quickSort(a, 0, n - 1);
- cout << "After sorting: " << endl;
+    cout << "After sorting: " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << a[i] << " ";
     }
     cout << endl;
-
-
     return 0;
 }

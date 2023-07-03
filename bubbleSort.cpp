@@ -7,7 +7,7 @@ int main()
     cout << "Enter the number of elements: " << endl;
     cin >> n;
     int a[n], temp;
-    cout<<"enter the number for sorting: "<< endl;
+    cout << "enter the number for sorting: " << endl;
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -31,6 +31,5 @@ int main()
         cout << a[i] << " ";
     }
     cout << endl;
-
     return 0;
 }
